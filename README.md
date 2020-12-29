@@ -1,4 +1,4 @@
-![insta like application](https://github.com/HimashiNethinikaRodrigo/InstaLike-Application/tree/master/public/images/instalike.jpg?raw=true)
+![insta like application](https://github.com/HimashiNethinikaRodrigo/InstaLike-Application/blob/master/public/images/instalike.jpg?raw=true)
 
 
 
