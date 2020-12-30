@@ -9,7 +9,10 @@
                 class="rounded-circle" height="150px">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>{{$user -> username ?? 'username not found'}}</h1></div>
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h1>{{$user -> username ?? 'username not found'}}</h1>
+                <a href="#">Add New Post</a>
+            </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153</strong> posts</div>
                 <div class="pr-5"><strong>23k</strong> followers</div>
