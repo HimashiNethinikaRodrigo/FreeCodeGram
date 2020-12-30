@@ -7,7 +7,7 @@ use App\Models\User;
 
 class ProfilesController extends Controller
 {
-    public function index($user)
+    public function show($user)
     {
         $user = User::findOrFail($user);
 

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bbf62c5-0b3b-4a10-9d21-1c35495d8b8d" name="Default Changelist" comment="create post modal and update model and user to have the relations">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+    <list default="true" id="1bbf62c5-0b3b-4a10-9d21-1c35495d8b8d" name="Default Changelist" comment="create post controller">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609238783298</updated>
-      <workItem from="1609238784809" duration="24988000" />
+      <workItem from="1609238784809" duration="25316000" />
     </task>
     <task id="LOCAL-00001" summary="initial php project configuration">
       <created>1609261285303</created>
@@ -387,15 +385,27 @@
       <option name="project" value="LOCAL" />
       <updated>1609357561604</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add new post link created">
+      <created>1609360841900</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1609360841900</updated>
+    </task>
+    <task id="LOCAL-00034" summary="create post controller">
+      <created>1609360857514</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1609360857514</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update readme" />
-    <MESSAGE value="header image" />
     <MESSAGE value="add top image and the title" />
     <MESSAGE value="add header image and header information" />
     <MESSAGE value="update project readme file" />
@@ -419,7 +429,9 @@
     <MESSAGE value="create post schema file" />
     <MESSAGE value="update post schema file with necessary attributes" />
     <MESSAGE value="create post modal and update model and user to have the relations" />
-    <option name="LAST_COMMIT_MESSAGE" value="create post modal and update model and user to have the relations" />
+    <MESSAGE value="add new post link created" />
+    <MESSAGE value="create post controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="create post controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2833" y="413" key="Github.ShareDialog" timestamp="1609260948850">
