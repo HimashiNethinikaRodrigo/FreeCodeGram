@@ -9,18 +9,17 @@
                 class="rounded-circle" height="150px">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>{{$user -> username ?? 'user not found'}}</h1></div>
+            <div><h1>{{$user -> username ?? 'username not found'}}</h1></div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153</strong> posts</div>
                 <div class="pr-5"><strong>23k</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
-            <div class="pt-4"><strong>freeCodeCamp.org</strong></div>
-            <div>We're a global community of millions of people learning to code together.
-            We're an open source, donor-supported, 501(c)(3) nonprofit.</div>
+            <div class="pt-4"><strong>{{$user -> profile -> title ?? 'title not found'}}</strong></div>
+            <div>{{$user-> profile-> description ?? 'description not found'}}</div>
             <div>
                 <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.freecodecamp.org%2F&e=ATN6CTxdlSXP3iF6dbX-8qASNSKtdKSi8_ZUCViLEVXnu-iBRH0i6qtt_IUys5jKfCFsbcaKXWRYMYnnkEA4DGC547h_CLY-&s=1">
-                    www.freecodecamp.org
+                    {{$user-> profile-> url ?? 'url not found'}}
                 </a>
             </div>
 
