@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bbf62c5-0b3b-4a10-9d21-1c35495d8b8d" name="Default Changelist" comment="create post controller">
+    <list default="true" id="1bbf62c5-0b3b-4a10-9d21-1c35495d8b8d" name="Default Changelist" comment="rename method name in profiles controller and route">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +143,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\PHP\FreeCodeGram\resources\views\profiles" />
       <recent name="D:\Projects\PHP\FreeCodeGram\public" />
     </key>
   </component>
@@ -159,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609238783298</updated>
-      <workItem from="1609238784809" duration="25316000" />
+      <workItem from="1609238784809" duration="25575000" />
     </task>
     <task id="LOCAL-00001" summary="initial php project configuration">
       <created>1609261285303</created>
@@ -399,14 +401,20 @@
       <option name="project" value="LOCAL" />
       <updated>1609360857514</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="rename method name in profiles controller and route">
+      <created>1609361100838</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1609361100838</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add top image and the title" />
     <MESSAGE value="add header image and header information" />
     <MESSAGE value="update project readme file" />
     <MESSAGE value="add Open Sans font with normal and bold" />
@@ -431,7 +439,8 @@
     <MESSAGE value="create post modal and update model and user to have the relations" />
     <MESSAGE value="add new post link created" />
     <MESSAGE value="create post controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="create post controller" />
+    <MESSAGE value="rename method name in profiles controller and route" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename method name in profiles controller and route" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2833" y="413" key="Github.ShareDialog" timestamp="1609260948850">

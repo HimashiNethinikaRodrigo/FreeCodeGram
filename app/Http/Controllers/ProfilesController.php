@@ -7,11 +7,11 @@ use App\Models\User;
 
 class ProfilesController extends Controller
 {
-    public function show($user)
+    public function index($user)
     {
         $user = User::findOrFail($user);
 
-        return view('home',[
+        return view('profiles.index',[
             'user'=> $user
         ]);
     }
