@@ -12,6 +12,10 @@ class PostController extends Controller
     }
 
     public function store(){
+        $data = \request()-> validate([
+           'caption' => 'required' ,
+            'image' => ['required' , 'image']
+        ]);
         dd(request()->all());
     }
 }
