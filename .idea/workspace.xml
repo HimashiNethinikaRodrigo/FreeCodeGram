@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bbf62c5-0b3b-4a10-9d21-1c35495d8b8d" name="Default Changelist" comment="add create method for the post controller">
+    <list default="true" id="1bbf62c5-0b3b-4a10-9d21-1c35495d8b8d" name="Default Changelist" comment="update post controller with function of only auth user can create posts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609238783298</updated>
-      <workItem from="1609238784809" duration="32687000" />
+      <workItem from="1609238784809" duration="33850000" />
     </task>
     <task id="LOCAL-00001" summary="initial php project configuration">
       <created>1609261285303</created>
@@ -469,14 +471,20 @@
       <option name="project" value="LOCAL" />
       <updated>1609763943283</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update post controller with function of only auth user can create posts">
+      <created>1609764354673</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609764354673</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update validations to username" />
     <MESSAGE value="create new update field" />
     <MESSAGE value="change route file" />
     <MESSAGE value="create ned profile controller" />
@@ -501,7 +509,8 @@
     <MESSAGE value="implement validation for the store post" />
     <MESSAGE value="add token for create post page and" />
     <MESSAGE value="add create method for the post controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add create method for the post controller" />
+    <MESSAGE value="update post controller with function of only auth user can create posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="update post controller with function of only auth user can create posts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2833" y="413" key="Github.ShareDialog" timestamp="1609260948850">
