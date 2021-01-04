@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 
 class PostController extends Controller
 {
@@ -16,6 +18,8 @@ class PostController extends Controller
            'caption' => 'required' ,
             'image' => ['required' , 'image']
         ]);
+        Post::create($data);
+
         dd(request()->all());
     }
 }
