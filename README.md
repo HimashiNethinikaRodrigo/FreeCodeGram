@@ -1,5 +1,4 @@
-![insta like application](https://github.com/HimashiNethinikaRodrigo/InstaLike-Application/blob/master/public/images/instalike.jpg?raw=true)
-
+<img src="https://github.com/HimashiNethinikaRodrigo/InstaLike-Application/blob/master/public/images/instalike.jpg?raw=true" width=200/>
 
 
 ## About InstaLike Application
